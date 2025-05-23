@@ -1,0 +1,17 @@
+{
+  "name": "resumeurl",
+  "version": "1.0.0",
+  "description": "Symmetric key encryption in Node.js utilizes the crypto module, which provides various cryptographic functionalities. The process involves generating a key, an initialization vector (IV), encrypting the data, and decrypting it using the same key and IV. Require the crypto module.      const crypto = require('crypto');",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^16.5.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}

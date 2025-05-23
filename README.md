@@ -1,5 +1,7 @@
 # resumeurl
-Symmetric key encryption in Node.js utilizes the crypto module, which provides various cryptographic functionalities. The process involves generating a key, an initialization vector (IV), encrypting the data, and decrypting it using the same key and IV. Require the crypto module. 
+Symmetric key encryption in Node.js utilizes the crypto module, which provides various cryptographic functionalities. The process involves generating a key, an initialization vector (IV), encrypting the data, and decrypting it using the same key and IV. 
+
+• Require the crypto module. 
     const crypto = require('crypto');
 
 • Generate a secure key: For AES-256, a 32-byte key is required. 
